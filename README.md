@@ -4,20 +4,6 @@
 
 Este projeto realiza o download de dados do IBGE, converte arquivos Excel para CSV e realiza uma análise exploratória dos dados (EDA).
 
-## Estrutura do Projeto
-
-data_engineering_internship/
-├── src/
-│ ├── downloader.py
-│ ├── converter.py
-│ └── main.py
-├── eda/
-│ └── data_analysis.py
-├── IBGE_downloads/
-├── csv_data/
-├── requirements.txt
-└── README.md
-
 ## Pré-requisitos
 
 - Python 3.7 ou superior
