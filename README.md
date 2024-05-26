@@ -9,13 +9,13 @@ Este projeto realiza o download de dados do IBGE, converte arquivos Excel para C
 - Python 3.7 ou superior
 - Pacotes listados em `requirements.txt`
 
-- ## Passos para executar o projeto
-  1-Instale as dependências
+ ## Passos para executar o projeto
+  - Instale as dependências
   "pip install -r requirements.txt"
   
-  2-Execute main.py
+  - Execute main.py
    "python src/main.py"
   
-  3-Execute o script da EDA(Análise exploratória dos dados)
+  - Execute o script da EDA(Análise exploratória dos dados)
   "python eda/data_analysis.py"
 
