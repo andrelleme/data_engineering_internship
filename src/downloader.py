@@ -14,7 +14,7 @@ class IBGEDownloader:
                 final_path = os.path.join(self.download_dir, f'{arquivo["name"]}.xlsx')
                 self.download_file(arquivo['url'], final_path)
         else:
-            print(f"Failed to retrieve data from {self.base_url}. Status code: {response.status_code}")
+            print(f"Falha ao obter dados de {self.base_url}. Status: {response.status_code}")
 
     def download_file(self, url, path):
         response_download = requests.get(url)
