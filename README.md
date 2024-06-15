@@ -4,8 +4,8 @@ Projeto de engenharia de dados envolvendo web scraping, exploração e analise d
 
 ## Funcionalidades
 
-- **Download de Dados**: Busca dados do IBGE dentro do website proposto.
-- **Conversão de Dados**: Converte arquivos Excel para formato CSV separando cada folha em um arquivo especifico com o nome da folha.
+- **Download de Dados**: Realiza webscraping das tabelas de 2015 sobre pessoas com 10 ou mais anos de idade relacionando-as a seu uso de internet e posse de celular,salvando os downloads em "IBGE_downloads"
+- **Conversão de Dados**: Converte arquivos Excel para formato CSV separando cada folha em um arquivo especifico com o nome da folha,salvando os arquivos em "csv_data"
 - **Análise Exploratória de Dados**: Script básico para fazer uma limpeza dos dados deixando apenas as informações específicas desejadas.
 
 ## Instalação
