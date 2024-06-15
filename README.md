@@ -16,13 +16,7 @@ Projeto de engenharia de dados envolvendo web scraping, exploração e analise d
     cd data_engineering_internship
     ```
 
-2. **Crie um ambiente virtual**:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate   # No Windows, use `venv\Scripts\activate`
-    ```
-
-3. **Instale as dependências**:
+2. **Instale as dependências**:
     ```bash
     pip install -r requirements.txt
     ```
@@ -30,12 +24,12 @@ Projeto de engenharia de dados envolvendo web scraping, exploração e analise d
 ## Uso
 
 1. **Baixar e converter dados**:
-    ```bash
+    ```
     python src/main.py
     ```
 
 2. **Realizar análise exploratória de dados**:
-    ```bash
+    ```
     python eda/data_analysis.py
     ```
 
