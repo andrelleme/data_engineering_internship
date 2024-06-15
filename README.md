@@ -1,4 +1,5 @@
 # Projeto de Data Engineering
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
 Projeto de engenharia de dados envolvendo web scraping, exploração e analise de dados 
 
